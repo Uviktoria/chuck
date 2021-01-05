@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.AppHeader {
+  width: 100%;
+  background-image: url("./assets//bg.jpg");
+  background-repeat: repeat-x;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 326px;
+  height: 326px;
+  margin: 1em auto;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 1px solid #eee;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}

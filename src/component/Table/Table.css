@@ -1,0 +1,13 @@
+.openTxt {
+  color: #29abe2;
+}
+.btnSort,
+.btnSort:focus {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  vertical-align: middle;
+}
+.table td.collapseTd{
+  padding: 0;
+}

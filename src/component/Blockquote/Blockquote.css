@@ -1,0 +1,40 @@
+blockquote {
+  border-right: 5px dashed #29abe2;
+  border-top: 5px dashed #29abe2;
+  border-left: 5px solid #29abe2;
+  border-bottom: 5px solid #29abe2;
+  padding: 34px;
+  height: auto;
+  width: 648px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+blockquote:before {
+  content: url("../../assets/Shape.svg");
+  top: -23px;
+  left: -28px;
+  background-color: white;
+  padding: 5px;
+  position: absolute;
+}
+blockquote::after {
+  content: url("../../assets/Shape.svg");
+  transform: rotate(180deg);
+  bottom: -23px;
+  right: -28px;
+  background-color: white;
+  padding: 5px;
+  position: absolute;
+}
+blockquote p {
+  color: #29abe2;
+  line-height: 1.4em;
+  font-size: xx-large;
+}
+.mainQuoteBox {
+  position: relative;
+  height: auto;
+  width: 648px;
+  margin: 30px auto;
+}

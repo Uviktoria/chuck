@@ -1,0 +1,9 @@
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 65px;
+  width: 1000px;
+}

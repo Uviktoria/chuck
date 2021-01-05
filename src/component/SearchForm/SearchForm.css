@@ -1,0 +1,32 @@
+.lables {
+  color: #16303c;
+  font-size: 13px;
+}
+.inputs {
+  border: 1px solid #b3bec2;
+  border-radius: 3px;
+  padding: 11px 10px;
+}
+.searchForm {
+  background-color: #fff2ee;
+  padding: 32px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.search-wrapper {
+  background-color: white;
+}
+.goBtn.btn-secondary:not(:disabled):not(.disabled).active,
+.goBtn.btn-secondary {
+  background-color: #f15a24;
+  color: white;
+  border-color: #f15a24;
+  width: 160px;
+  height: 40px;
+}
+.row.form-group {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
